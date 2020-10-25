@@ -52,6 +52,7 @@ input[type="submit"]{
 	border: none;
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
+	animation: buttons 2.35s ease-in-out;
 }
 input[type="submit"]:hover{
 	background-color:#228B22;
@@ -71,4 +72,24 @@ input[type="submit"]:hover{
 	padding: 2rem 5rem;
 	border: 3px solid black;
 	border-radius: 2rem;
+	animation: animations 0.75s ease-in-out;
+}
+@keyframes animations{
+	from{
+		opacity: 0;
+		width: 10%;
+		height: 5%;
+		padding: 0rem;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes buttons{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
