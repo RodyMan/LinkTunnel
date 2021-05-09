@@ -25,7 +25,7 @@ input[type = "text"], input[type="password"], input[type="email"]{
 	border-bottom: 2px solid #228B22;
 	transition: border-left 0.25s ease-in-out;
 }
-input[type = "text"]:hover, input[type = "email"]:hover,input[type = "password"]:hover{
+button[type = "text"]:hover, input[type = "email"]:hover,input[type = "password"]:hover{
 	border-left: 5px solid #228B22;
 }
 p{
