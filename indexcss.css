@@ -59,7 +59,7 @@ input[type = "button"]{
 	animation: buttons 2.35s ease-in-out;
 }
 input[type="button"]:hover{
-	background-color:#0db1a8;
+	background-color:#2890ab;
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
