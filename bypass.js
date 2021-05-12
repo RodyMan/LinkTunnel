@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("https://myflixer.to/watch-movie/the-negotiation-2954.2519574");
+	location.replace("https://myflixer.to/tv/new-amsterdam-39333");
 	}
