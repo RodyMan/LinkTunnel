@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("https://myflixer.to/tv-show");
+	location.replace("https://myflixer.to/tv-shw");
 	}
