@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("https://linktunnel.netlify.app");
+	location.replace("linktunnel.html");
 	}
