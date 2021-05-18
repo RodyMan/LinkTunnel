@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("https://thepiratebay.org/index.html");
+	location.replace("https://myflixer.to/tv/new-amsterdam-39333");
 	}
