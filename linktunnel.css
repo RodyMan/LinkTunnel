@@ -63,6 +63,7 @@ input[type="button"]:hover{
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
+	cursor: pointer;
 }
 .register{
 	position: absolute;
