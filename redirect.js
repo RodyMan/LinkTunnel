@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("linktunnel.html");
+	location.replace("https://discord.gg/8QE4QuVPAA");
 	}
