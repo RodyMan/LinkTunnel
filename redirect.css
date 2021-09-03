@@ -12,6 +12,7 @@ html{
 	border-radius: 1rem;
 	background-color:white;
 	left: 40px;
+	top:  100px;
 	outline: none;
 	font-size: medium;
 	margin-bottom: 1rem;
@@ -27,7 +28,9 @@ html{
 	cursor: pointer;
 }
 .Review{
+	position: relative;
 	padding:1rem 2rem;
+	top: 100px;
 	border-radius: 1rem;
 	background-color:white;
 	outline: none;
@@ -56,4 +59,9 @@ html{
 	padding: 2rem 5rem;
 	border: none;
 	border-radius: 2rem;
+}
+img{
+	position: relative;
+	bottom:100px;
+	right: 45px;
 }
