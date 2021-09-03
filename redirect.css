@@ -6,7 +6,27 @@ body {
 html{
 	font-size: 10px;
 }
-input[type = "button"]{
+.Join{
+	position: relative;
+	padding:1rem 2rem;
+	border-radius: 1rem;
+	background-color:white;
+	left: 40px;
+	outline: none;
+	font-size: medium;
+	margin-bottom: 1rem;
+	border: none;
+	transition: background-color,border-radius,border 0.75s ease-in-out;
+	transition: color 0.30s ease-in-out;
+}
+.Join:hover{
+	background-color:red;
+	color:white;
+	border: 1px solid black;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+.Review{
 	padding:1rem 2rem;
 	border-radius: 1rem;
 	background-color:white;
@@ -17,7 +37,7 @@ input[type = "button"]{
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
 }
-input[type="button"]:hover{
+.Review:hover{
 	background-color:red;
 	color:white;
 	border: 1px solid black;
