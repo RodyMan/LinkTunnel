@@ -11,8 +11,7 @@ html{
 	padding:1rem 2rem;
 	border-radius: 1rem;
 	background-color:white;
-	left: 45px;
-	top:  100px;
+	left: -10px;
 	outline: none;
 	font-size: medium;
 	margin-bottom: 1rem;
@@ -30,7 +29,7 @@ html{
 .Review{
 	position: relative;
 	padding:1rem 2rem;
-	top: 100px;
+	right: -90px;
 	border-radius: 1rem;
 	background-color:white;
 	outline: none;
@@ -47,21 +46,22 @@ html{
 	border-radius: 2rem;
 	cursor: pointer;
 }
-.redirect1 {
-	position: absolute;
-	border-sizing: border-box;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: none;
-	height: 32rem;
-	width: 20rem;
-	padding: 2rem 5rem;
-	border: none;
-	border-radius: 2rem;
-}
 img{
 	position: relative;
-	bottom:100px;
-	right: 45px;
+	right: -5px;
+	left: 10px;
+}
+.redirect1{
+
+	position: absolute;
+	padding: 10rem 10rem;
+	box-sizing: border-box;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 70rem;
+	height: 60rem;
+	background-color: black;
+	border: 3px solid white;
+
 }
