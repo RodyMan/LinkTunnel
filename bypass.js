@@ -1,3 +1,3 @@
 function redirect(){
-	location.replace("https://www.google.com");
+	location.replace("https://discord.gg/8QE4QuVPAA");
 	}
