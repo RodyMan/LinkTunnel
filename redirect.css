@@ -77,6 +77,9 @@ img{
 	left: 170px;
 
 }
+.TeamSeasPNG:hover{
+	cursor: no-drop;
+}
 .redirect1{
 	position: absolute;
 	padding: 10rem 10rem;
