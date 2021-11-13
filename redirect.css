@@ -60,7 +60,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .QRCodeGen:hover{
-	background-color:lightskyblue;
+	background-color:red;
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
