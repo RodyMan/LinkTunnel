@@ -1,3 +1,3 @@
 function redirect3(){
-	location.replace("https://teamseas.org/");
+	location.replace("https://fqrgen.netlify.app/");
 	}
