@@ -46,7 +46,7 @@ html{
 	border-radius: 2rem;
 	cursor: pointer;
 }
-.TeamSeas{
+.QRCodeGen{
 	position: relative;
 	padding:1rem 2rem;
 	right: -147px;
@@ -59,7 +59,7 @@ html{
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
 }
-.TeamSeas:hover{
+.QRCodeGen:hover{
 	background-color:lightskyblue;
 	color:white;
 	border: 1px solid black;
