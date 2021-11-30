@@ -86,9 +86,17 @@ html{
 	border-radius: 2rem;
 	cursor: pointer;
 }
+
+.dembed{
+	position: relative;
+	right: -380px;
+	top: -450px;
+
+
+}
 img{
 	position: relative;
-	right: -5px;
+	right: 5px;
 	left: 10px;
 }
 .TeamSeasPNG{
