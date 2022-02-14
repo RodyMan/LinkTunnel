@@ -1,8 +1,8 @@
 body {
   margin: 0rem;
   padding: 0rem;
-  /*background-color: black;*/
   background-image:url(NFT.jpg);
+  /*background-color: black;*/
 }
 html{
 	font-size: 10px;
@@ -92,40 +92,29 @@ html{
 	border-radius: 2rem;
 	cursor: pointer;
 }
-
-/*.dembed{
-	position: relative;
-	left: -620px;
-	top: -300px;
-}*/
 img{
 	position: relative;
 	top: -50px;
 	right: 5px;
 	left: 10px;
 }
-/*img.nft{
-	position: relative;
-	width: 200px;
-	left: 111px;
-}*/
-.TeamSeasPNG{
-	width: 150px;
-	top: 20px;
-	left: 170px;
-
-}
 img:hover{
-	cursor: no-drop;
+	cursor: pointer;
 }
-.redirect1{
+.FoundationBox{
 	position: absolute;
 	padding: 10rem 10rem;
 	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.8);
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	width: 70rem;
-	height: 60rem;
-	background-color: black;
+	width: 58rem;
+	height: 48rem;
+	border-radius: 50px;
 }
+/*.DiscordEmbed{
+	position: relative;
+	left: -620px;
+	top: -300px;
+}*/
