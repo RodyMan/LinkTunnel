@@ -99,6 +99,11 @@ img{
 	right: 5px;
 	left: 10px;
 }
+img.nft{
+	position: relative;
+	width: 200px;
+	left: 111px;
+}
 .TeamSeasPNG{
 	width: 150px;
 	top: 20px;
