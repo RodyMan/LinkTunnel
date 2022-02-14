@@ -1,7 +1,8 @@
 body {
   margin: 0rem;
   padding: 0rem;
-  background-color: black;
+  /*background-color: black;*/
+  background-image:url(NFT.jpg);
 }
 html{
 	font-size: 10px;
@@ -11,6 +12,7 @@ html{
 	padding:1rem 2rem;
 	border-radius: 1rem;
 	background-color:white;
+	top: -30px;
 	left: -4px;
 	outline: none;
 	font-size: medium;
@@ -29,6 +31,7 @@ html{
 .Review{
 	position: relative;
 	padding:1rem 2rem;
+	top: -30px;
 	right: 0.2rem;
 	border-radius: 1rem;
 	background-color:white;
@@ -49,6 +52,7 @@ html{
 .QRCodeGen{
 	position: relative;
 	padding:1rem 2rem;
+	top: -30px;
 	right: 0.2rem;
 	border-radius: 1rem;
 	background-color:white;
@@ -62,6 +66,7 @@ html{
 .QRCodeGen:hover{
 	background-color:red;
 	color:white;
+	top: -30px;
 	border: 1px solid black;
 	border-radius: 2rem;
 	cursor: pointer;
@@ -69,6 +74,7 @@ html{
 .LinkShorten{
 	position: relative;
 	padding:1rem 2rem;
+	top: -30px;
 	right: 0.2rem;
 	border-radius: 1rem;
 	background-color:white;
@@ -87,23 +93,22 @@ html{
 	cursor: pointer;
 }
 
-.dembed{
+/*.dembed{
 	position: relative;
-	right: -380px;
-	top: -450px;
-
-
-}
+	left: -620px;
+	top: -300px;
+}*/
 img{
 	position: relative;
+	top: -50px;
 	right: 5px;
 	left: 10px;
 }
-img.nft{
+/*img.nft{
 	position: relative;
 	width: 200px;
 	left: 111px;
-}
+}*/
 .TeamSeasPNG{
 	width: 150px;
 	top: 20px;
