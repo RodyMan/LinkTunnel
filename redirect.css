@@ -92,6 +92,27 @@ html{
 	border-radius: 2rem;
 	cursor: pointer;
 }
+.Event{
+	position: relative;
+	padding:1rem 2rem;
+	top: -30px;
+	right: 0.2rem;
+	border-radius: 1rem;
+	background-color:white;
+	outline: none;
+	font-size: medium;
+	margin-bottom: 1rem;
+	border: none;
+	transition: background-color,border-radius,border 0.75s ease-in-out;
+	transition: color 0.30s ease-in-out;
+}
+.Event:hover{
+	background-color:red;
+	color:white;
+	border: 1px solid black;
+	border-radius: 2rem;
+	cursor: pointer;
+}
 img{
 	position: relative;
 	top: -50px;
@@ -110,7 +131,7 @@ img:hover{
 	top: 50%;
 	left: 50%;
 	width: 58rem;
-	height: 48rem;
+	height: 50rem; /* 48rem original */
 	border-radius: 50px;
 }
 /*.DiscordEmbed{
