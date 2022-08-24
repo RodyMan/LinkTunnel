@@ -1,3 +1,3 @@
 function redirect4(){
-	location.replace("https://flinkshortener.netlify.app/");
+	location.replace("https://ls.linktunnel.org");
 	}
