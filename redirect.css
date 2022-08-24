@@ -109,8 +109,8 @@ img:hover{
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	width: 58rem;
-	height: 50rem; /* 48rem original */
+	width: 48rem;
+	height: 30rem; /* 48rem original */
 	border-radius: 50px;
 }
 /*.DiscordEmbed{
