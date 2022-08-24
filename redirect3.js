@@ -1,3 +1,3 @@
 function redirect3(){
-	location.replace("https://fqrgen.netlify.app/");
+	location.replace("https://qr.linktunnel.org");
 	}
