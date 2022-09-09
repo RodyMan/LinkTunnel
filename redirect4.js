@@ -1,3 +1,3 @@
 function redirect4(){
-	location.replace("https://ls.linktunnel.org");
+	location.replace("https://linktunnel.org/ls");
 	}
