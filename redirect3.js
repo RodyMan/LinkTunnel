@@ -1,3 +1,3 @@
 function redirect3(){
-	location.replace("https://qr.linktunnel.org");
+	location.replace("https://linktunnel.org/qr");
 	}
