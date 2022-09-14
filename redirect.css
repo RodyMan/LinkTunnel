@@ -131,7 +131,7 @@ img:hover{
 	top: 50%;
 	left: 50%;
 	width: 48rem;
-	height: 48rem; /* 48rem original */
+	height: 50rem; /* 48rem original */
 	border-radius: 50px;
 }
 /*.DiscordEmbed{
