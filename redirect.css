@@ -1,141 +1,100 @@
 body {
   margin: 0rem;
   padding: 0rem;
-  background-image:url(NFT.jpg);
-  /*background-color: black;*/
+  background-image: url('bg3.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 html{
 	font-size: 10px;
 }
-.Join{
-	position: relative;
+
+a{
+  font-size: 50px;
+}
+input[type = "text"], input[type="password"], input[type="email"]{
+	padding: 0.30rem;
+	background-color: transparent;
+	color: black;
+	outline: none;
+	white-space: nowrap;
+	border-top: 0rem;
+	border-right: 0rem;
+	border-left: 2px  solid #0db1a8;
+	border-bottom: 2px solid #0db1a8;
+	transition: border-left 0.25s ease-in-out;
+}
+input[type = "text"]:hover, input[type = "email"]:hover,input[type = "password"]:hover{
+	border-left: 5px solid #0db1a8;
+}
+p{
+	color: black;
+	font-size: 1.40rem;
+	font-family: monospace;
+	font-style: bold;
+	margin-right: 10rem;
+	white-space: nowrap;
+}
+p.email{
+	margin-right:14rem;
+	margin-left: 2rem;
+}
+h2{
+	color: black;
+	font-size: 25px;
+	white-space: nowrap;
+	text-shadow: 0px 2px gray;
+}
+input[type = "button"]{
 	padding:1rem 2rem;
 	border-radius: 1rem;
-	background-color:white;
-	top: -30px;
-	left: -4px;
+	background-color:#0db1a8;
 	outline: none;
 	font-size: medium;
 	margin-bottom: 1rem;
 	border: none;
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
+	animation: buttons 2.35s ease-in-out;
 }
-.Join:hover{
-	background-color:red;
+input[type="button"]:hover{
+	background-color:#2890ab;
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
 	cursor: pointer;
 }
-.Review{
-	position: relative;
-	padding:1rem 2rem;
-	top: -30px;
-	right: 0.2rem;
-	border-radius: 1rem;
-	background-color:white;
-	outline: none;
-	font-size: medium;
-	margin-bottom: 1rem;
-	border: none;
-	transition: background-color,border-radius,border 0.75s ease-in-out;
-	transition: color 0.30s ease-in-out;
-}
-.Review:hover{
-	background-color:red;
-	color:white;
-	border: 1px solid black;
-	border-radius: 2rem;
-	cursor: pointer;
-}
-.QRCodeGen{
-	position: relative;
-	padding:1rem 2rem;
-	top: -30px;
-	right: 0.2rem;
-	border-radius: 1rem;
-	background-color:white;
-	outline: none;
-	font-size: medium;
-	margin-bottom: 1rem;
-	border: none;
-	transition: background-color,border-radius,border 0.75s ease-in-out;
-	transition: color 0.30s ease-in-out;
-}
-.QRCodeGen:hover{
-	background-color:red;
-	color:white;
-	top: -30px;
-	border: 1px solid black;
-	border-radius: 2rem;
-	cursor: pointer;
-}
-.LinkShorten{
-	position: relative;
-	padding:1rem 2rem;
-	top: -30px;
-	right: 0.2rem;
-	border-radius: 1rem;
-	background-color:white;
-	outline: none;
-	font-size: medium;
-	margin-bottom: 1rem;
-	border: none;
-	transition: background-color,border-radius,border 0.75s ease-in-out;
-	transition: color 0.30s ease-in-out;
-}
-.LinkShorten:hover{
-	background-color:red;
-	color:white;
-	border: 1px solid black;
-	border-radius: 2rem;
-	cursor: pointer;
-}
-.Games{
-	position: relative;
-	padding:1rem 2rem;
-	top: -30px;
-	right: 0.2rem;
-	border-radius: 1rem;
-	background-color:white;
-	outline: none;
-	font-size: medium;
-	margin-bottom: 1rem;
-	border: none;
-	transition: background-color,border-radius,border 0.75s ease-in-out;
-	transition: color 0.30s ease-in-out;
-}
-.Games:hover{
-	background-color:red;
-	color:white;
-	border: 1px solid black;
-	border-radius: 2rem;
-	cursor: pointer;
-}
-img{
-	position: relative;
-	top: -50px;
-	right: 5px;
-	left: 10px;
-}
-img:hover{
-	cursor: pointer;
-}
-.FoundationBox{
+.register{
 	position: absolute;
-	padding: 10rem 10rem;
-	box-sizing: border-box;
-	background: rgba(0, 0, 0, 0.8);
-	transform: translate(-50%, -50%);
+	border-sizing: border-box;
 	top: 50%;
 	left: 50%;
-	width: 50rem;
-	height: 50rem; /* 48rem original */
-	border-radius: 50px;
+	transform: translate(-50%, -50%);
+	background-color: #D3D3D3;
+	height: 32rem;
+	width: 20rem;
+	padding: 2rem 5rem;
+	border: 3px solid black;
+	border-radius: 2rem;
+	animation: animations 0.75s ease-in-out;
 }
-/*.DiscordEmbed{
-	position: relative;
-	left: -620px;
-	top: -300px;
-}*/
+@keyframes animations{
+	from{
+		opacity: 0;
+		width: 10%;
+		height: 5%;
+		padding: 0rem;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes buttons{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
