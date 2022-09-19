@@ -3,6 +3,7 @@ body {
   padding: 0rem;
   background-image:url(NFT.jpg);
   /*background-color: black;*/
+  overflow: hidden;
 }
 html{
 	font-size: 10px;
