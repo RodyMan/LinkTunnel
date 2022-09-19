@@ -3,12 +3,11 @@ body {
   padding: 0rem;
   background-image:url(NFT.jpg);
   /*background-color: black;*/
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
+	
 }
 html{
 	font-size: 10px;
+	overflow: hidden;
 }
 .Join{
 	position: relative;
