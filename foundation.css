@@ -5,6 +5,7 @@ body {
   /*background-color: black;*/
   overflow-x: hidden;
   overflow-y: hidden;
+  position: relative;
 }
 html{
 	font-size: 10px;
