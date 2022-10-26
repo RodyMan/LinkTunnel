@@ -3,6 +3,7 @@ body {
   padding: 0rem;
   background-image:url(halloween.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   /*background-color: black;*/
 	
 }
