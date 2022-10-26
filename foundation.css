@@ -1,7 +1,7 @@
 body {
   margin: 0rem;
   padding: 0rem;
-  background-image:url(NFT.jpg);
+  background-image:url(halloween.jpg);
   /*background-color: black;*/
 	
 }
@@ -23,7 +23,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .Join:hover{
-	background-color:red;
+	background-color:rgb(255, 204, 69);
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
@@ -44,7 +44,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .Review:hover{
-	background-color:red;
+	background-color:rgb(255, 204, 69);
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
@@ -65,7 +65,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .QRCodeGen:hover{
-	background-color:red;
+	background-color:rgb(255, 204, 69);
 	color:white;
 	top: -30px;
 	border: 1px solid black;
@@ -87,7 +87,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .LinkShorten:hover{
-	background-color:red;
+	background-color:rgb(255, 204, 69);
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
@@ -108,7 +108,7 @@ html{
 	transition: color 0.30s ease-in-out;
 }
 .Games:hover{
-	background-color:red;
+	background-color:rgb(255, 204, 69);
 	color:white;
 	border: 1px solid black;
 	border-radius: 2rem;
@@ -127,7 +127,7 @@ img:hover{
 	position: absolute;
 	padding: 10rem 10rem;
 	box-sizing: border-box;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgb(204, 135, 44,0.5);
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
